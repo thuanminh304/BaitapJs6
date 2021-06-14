@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="baitap1">
+      <h1>BÀI TẬP 1</h1>
+      <p>Số nguyên dương nhỏ nhất thõa mãn với điều kiện 1+2+...+n>10000</p>
+      <p
+        id="idSoNhoNhat"
+        style="
+          background-color: aqua;
+          content: '';
+          display: inline-block;
+          height: 20px;
+          width: 20%;
+        "
+      ></p>
+      <button id="idBtnKq1" onclick="btnKq1()">Xuất</button>
+    </div>
+    <hr />
+    <div class="baitap2">
+      <h1>BÀI TẬP 2</h1>
+      <p>Tính tổng: Sum(n)= x + x^2 + x^3 +...+ x^n.</p>
+      <p>(nhớ reset trang mỗi khi thực hiện một lần nhập mới để tránh kết quả sai)</p>
+      <input type="text" id="idNhapX" placeholder="nhập X" />
+      <input type="text" id="idNhapN" placeholder="nhập N" />
+      <button id="idBtnKq2" onclick="btnKq2()">Kết quả</button>
+      <p id="xuatKq"></p>
+    </div>
+    <hr>
+    <div class="baitap3">
+        <h1>BÀI TẬP 3</h1>
+        <p>Nhập vào n. Tính 1*2*3*...*n</p>
+        <p>(nhớ reset trang mỗi khi thực hiện một lần nhập mới để tránh kết quả sai)</p>
+        <input type="text" id="idSoN">
+        <button id="idBtnKq3" onclick="btnKq3()">Kết quả</button>
+        <p id="xuatKq3"></p>
+    </div>
+    <hr>
+    <div class="baitap4">
+        <h1>BÀI TẬP 4</h1>
+        <button id="idInKq" onclick="inKq()">In</button>
+        <p id="xuatKq4" style="display:inline-block;color:white;"></p>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
